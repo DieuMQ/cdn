@@ -1,0 +1,54 @@
+.bx-viewport {
+	height: auto !important;
+}
+
+.gs_logo_single img {
+	margin: 0 auto;
+}
+
+.bx-wrapper .bx-controls-direction a {
+	display: none;
+	-webkit-transition: 1s all;
+	-o-transition: 1s all;
+	transition: 1s all;
+	text-decoration: none;
+	border: none;
+}
+
+.bx-wrapper:hover .bx-controls-direction a {
+	display: block;
+}
+
+.gs_logo_title {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.gs_logo_single {
+		width: 222px !important;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	.gs_logo_single {
+		width: 165px !important;
+	}	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	.gs_logo_single {
+		width: 198px !important;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+
+	.gs_logo_single {
+		width: 268px !important;
+		margin: 0 auto;
+		float: none !important;
+		display: table-cell;
+	}
+}
